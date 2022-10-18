@@ -3,7 +3,7 @@ name: Automatically Publish Draft Release
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   release:
